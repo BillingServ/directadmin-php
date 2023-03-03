@@ -1,0 +1,19 @@
+{
+    "name": "billingserv/directadmin",
+    "description": "PHP Library for DirectAdmin's API",
+    "require": {
+        "guzzlehttp/guzzle": "~7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BillingServ",
+            "email": "hello@baseserv.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"billingserv\\DirectAdmin\\": "src/"
+    	}
+    }
+}
